@@ -11,7 +11,7 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
               {/* header */}
               <div className="flex items-center justify-between">
                 <div>
-                  <h1>Order Now</h1>
+                  <h1>Hire Now</h1>
                 </div>
                 <div>
                   <IoCloseOutline
@@ -34,12 +34,12 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                 />
                 <input
                   type="text"
-                  placeholder="Address"
+                  placeholder="Message"
                   className=" w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
                 />
                 <div className="flex justify-center">
                   <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full ">
-                    Order Now
+                    Hire Now
                   </button>
                 </div>
               </div>
