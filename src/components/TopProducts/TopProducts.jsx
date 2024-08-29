@@ -1,31 +1,81 @@
 import React from "react";
-import Img1 from "../../assets/shirt/shirt.png";
+import Img1 from "../../assets/shirt/web.png";
 import Img2 from "../../assets/shirt/shirt2.png";
 import Img3 from "../../assets/shirt/shirt3.png";
+import Img4 from "../../assets/shirt/shirt3.png";
+import Img5 from "../../assets/shirt/shirt3.png";
+import Img6 from "../../assets/shirt/shirt3.png";
+import Img7 from "../../assets/shirt/shirt3.png";
+import Img8 from "../../assets/shirt/shirt3.png";
+import Img9 from "../../assets/shirt/shirt3.png";
+
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Casual Wear",
+    title: "Web Development",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Website Design and Development: Create and build user-friendly, visually appealing websites that are optimized for performance, usability, and conversion.",
   },
   {
     id: 2,
     img: Img2,
-    title: "Printed shirt",
+    title: "Digital Stratergy",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
     img: Img3,
-    title: "Women shirt",
+    title: "Creative",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
+  {
+    id: 4,
+    img: Img4,
+    title: "Brand Automation",
+    description:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: 5,
+    img: Img5,
+    title: "Media Consultency",
+    description:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: 6,
+    img: Img6,
+    title: "Artificial Interlligence",
+    description:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: 7,
+    img: Img7,
+    title: "SEO",
+    description:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: 8,
+    img: Img8,
+    title: "Content",
+    description:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: 9,
+    img: Img9,
+    title: "Email and CRM",
+    description:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  
 ];
 const TopProducts = ({ handleOrderPopup }) => {
   return (
@@ -34,10 +84,10 @@ const TopProducts = ({ handleOrderPopup }) => {
         {/* Header section */}
         <div className="text-left mb-24">
           <p data-aos="fade-up" className="text-sm text-primary">
-            Top Rated Products for you
+            Top Rated Servise for you
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Best Products
+            Best Servise
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
