@@ -13,7 +13,7 @@ const Menu = [
   },
   {
     id: 2,
-    name: "Top Rated",
+    name: "Top sameera",
     link: "/#services",
   },
   {
