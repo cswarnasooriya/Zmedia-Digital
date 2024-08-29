@@ -1,15 +1,21 @@
 import React from "react";
-import Img1 from "../../assets/women/women.png";
-import Img2 from "../../assets/women/women2.jpg";
-import Img3 from "../../assets/women/women3.jpg";
-import Img4 from "../../assets/women/women4.jpg";
+import Img1 from "../../assets/women/Socialservice_1.png";
+import Img2 from "../../assets/women/Brandservice_4.png";
+import Img3 from "../../assets/women/AIservice_1.png";
+import Img4 from "../../assets/women/AIservice.png";
+import Img5 from "../../assets/women/Contentservice_2.png";
+import Img6 from "../../assets/women/Socialservice_6.png";
+import Img7 from "../../assets/women/SEOservice_1.png";
+import Img8 from "../../assets/women/Emailservice_3.png";
+import Img9 from "../../assets/women/Webservice_1.png";
+import Img10 from "../../assets/women/Webservice_3.png";
 import { FaStar } from "react-icons/fa6";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Women Ethnic",
+    title: "Digital Stratergy",
     rating: 5.0,
     color: "white",
     aosDelay: "0",
@@ -17,7 +23,7 @@ const ProductsData = [
   {
     id: 2,
     img: Img2,
-    title: "Women western",
+    title: "Brandin Automation",
     rating: 4.5,
     color: "Red",
     aosDelay: "200",
@@ -25,7 +31,7 @@ const ProductsData = [
   {
     id: 3,
     img: Img3,
-    title: "Goggles",
+    title: "Creative",
     rating: 4.7,
     color: "brown",
     aosDelay: "400",
@@ -33,18 +39,58 @@ const ProductsData = [
   {
     id: 4,
     img: Img4,
-    title: "Printed T-Shirt",
+    title: "Artificial Interlligence",
     rating: 4.4,
     color: "Yellow",
     aosDelay: "600",
   },
   {
     id: 5,
-    img: Img2,
-    title: "Fashin T-Shirt",
+    img: Img5,
+    title: "Content",
     rating: 4.5,
     color: "Pink",
     aosDelay: "800",
+  },
+  {
+    id: 6,
+    img: Img6,
+    title: "Media Consultency",
+    rating: 5.0,
+    color: "white",
+    aosDelay: "0",
+  },
+  {
+    id: 7,
+    img: Img7,
+    title: "SEO",
+    rating: 5.0,
+    color: "white",
+    aosDelay: "0",
+  },
+  {
+    id: 8,
+    img: Img8,
+    title: "Email and CRM",
+    rating: 5.0,
+    color: "white",
+    aosDelay: "0",
+  },
+  {
+    id: 9,
+    img: Img9,
+    title: "Web Development",
+    rating: 5.0,
+    color: "white",
+    aosDelay: "0",
+  },
+  {
+    id: 10,
+    img: Img10,
+    title: "Web Development",
+    rating: 5.0,
+    color: "white",
+    aosDelay: "0",
   },
 ];
 
@@ -55,14 +101,13 @@ const Products = () => {
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-sm text-primary">
-            Top Selling Products for you
+            Top Services for you
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Products
+            Services
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+          "Expertly crafting websites with creative design, optimizing visibility through digital marketing and SEO, and delivering user-friendly UX/UI, all focused on enhancing your brand's success."
           </p>
         </div>
         {/* Body section */}
@@ -92,12 +137,12 @@ const Products = () => {
               </div>
             ))}
           </div>
-          {/* view all button */}
+          {/* view all button
           <div className="flex justify-center">
             <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
               View All Button
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
