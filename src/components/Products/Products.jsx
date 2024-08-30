@@ -7,8 +7,8 @@ import Img5 from "../../assets/women/Contentservice_2.png";
 import Img6 from "../../assets/women/Socialservice_6.png";
 import Img7 from "../../assets/women/SEOservice_1.png";
 import Img8 from "../../assets/women/Emailservice_3.png";
-import Img9 from "../../assets/women/Webservice_1.png";
-import Img10 from "../../assets/women/Webservice_3.png";
+import Img9 from "../../assets/women/PaidService.png";
+import Img10 from "../../assets/women/Webservice_1.png";
 import { FaStar } from "react-icons/fa6";
 
 const ProductsData = [
@@ -78,20 +78,21 @@ const ProductsData = [
   },
   {
     id: 9,
-    img: Img9,
-    title: "Paid Marketing",
-    rating: 4.8,
-    color: "white",
-    aosDelay: "0",
-  },
-  {
-    id: 10,
     img: Img10,
     title: "Web Development",
     rating: 5.0,
     color: "white",
     aosDelay: "0",
   },
+  {
+    id: 10,
+    img: Img9,
+    title: "Paid Marketing",
+    rating: 4.8,
+    color: "white",
+    aosDelay: "0",
+  },
+ 
 ];
 
 const Products = () => {
