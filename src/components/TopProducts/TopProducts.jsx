@@ -14,21 +14,21 @@ import { FaStar } from "react-icons/fa";
 const ProductsData = [
   {
     id: 1,
-    img: Img4,
+    img: Img1,
     title: "Web Development",
     description:
       "Website Design and Development: Create and build user-friendly, visually appealing websites that are optimized for performance, usability, and conversion.",
   },
   {
     id: 2,
-    img: Img4,
+    img: Img2,
     title: "Digital Stratergy",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: 3,
-    img: Img4,
+    img: Img3,
     title: "Creative",
     description:
       "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -92,7 +92,7 @@ const TopProducts = ({ handleOrderPopup }) => {
           Featured Services
           </h1>
 
-          <p data-aos="fade-up" className="text-xs text-gray-700  dark:text-gray-400  text-[20px] pb-12 justify-center font-semibold">
+          <p data-aos="fade-up" className="text-xs text-gray-700  dark:text-gray-400 leading-7  text-[21px] pb-12 justify-center font-semibold">
             Here are the our trending and very former services in past few years. It help you to get clear idea about us more over.
           </p>
         </div>
@@ -107,11 +107,11 @@ const TopProducts = ({ handleOrderPopup }) => {
               className="rounded-3xl bg-gray-100 dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[400px]"
             >
               {/* image section */}
-              <div className="h-[100px] cursor-pointer">
+              <div className="h-[150px] cursor-pointer">
                 <img
                   src={data.img}
                   alt=""
-                  className="max-w-[210px] block mx-auto transform -translate-y-20 group-hover:scale-110 duration-300 drop-shadow-2xl "
+                  className="max-w-[220px] block mx-auto transform -translate-y-20 group-hover:scale-110 duration-300 drop-shadow-2xl "
                 />
               </div>
               {/* details section */}
@@ -123,12 +123,12 @@ const TopProducts = ({ handleOrderPopup }) => {
                   <FaStar className="text-yellow-500" />
                   <FaStar className="text-yellow-500" />
                 </div>
-                <h1 className="text-xl font-semibold mb-4">{data.title}</h1>
-                <p className="dark:text-logo text-gray-500 group-hover:text-white duration-300 text-[14px] line-clamp-2 mb-4">
+                <h1 className="text-2xl font-semibold mb-4">{data.title}</h1>
+                <p className="dark:text-logo text-gray-500 group-hover:text-white duration-300 text-[16px] text-center line-clamp-2 mb-4">
                   {data.description}
                 </p>
                 <button
-                  className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
+                  className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-logo"
                   onClick={handleOrderPopup}
                 >
                   See More
