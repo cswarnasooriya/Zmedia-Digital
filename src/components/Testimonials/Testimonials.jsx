@@ -71,7 +71,7 @@ const Testimonials = () => {
     <div className="py-10 mb-10">
       <div className="container">
         {/* header section */}
-        <div className="text-center mb-10 max-w-[600px] mx-auto">
+        <div className="text-center mb-10 max-w-[900px] mx-auto">
           <p data-aos="fade-up" className="text-[24px] dark:text-logo/90 text-logo/80">
             What our customers are saying
           </p>
