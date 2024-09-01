@@ -1,58 +1,61 @@
-import React from "react";
-import Banner from "../../assets/website/orange-pattern.jpg";
+
+import Banner from "../../assets/logo.png";
 
 const BannerImg = {
   backgroundImage: `url(${Banner})`,
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  height: "100%",
-  width: "100%",
+  
+  
+  
 };
 
 const Subscribe = () => {
   return (
     <div
-      data-aos="zoom-in"
-      className="mb-20 bg-gray-100 dark:bg-gray-800 text-white "
+      data-aos=""
+      className="mb-10  rounded-2xl bg-gray-900 dark:bg-gray-500 text-white "
       style={BannerImg}
+      id="contact"
     >
-      <div className="container backdrop-blur-sm py-10">
-        <div className="space-y-6 max-w-xl mx-auto">
-          <h1 className="text-2xl !text-center sm:text-left sm:text-4xl font-semibold">
+      <div className="container backdrop-blur-[8px] py-10 px-[100px]">
+        <div className="space-y-6 max-w-xl mx-auto bg-blue-50 px-8 py-4 rounded-3xl">
+          <h1 className="text-3xl !text-center sm:text-left sm:text-4xl font-bold text-orange-500">
             Always Touch with Us
           </h1>
           <input
             data-aos="fade-up"
             type="text"
             placeholder="Your Name"
-            className="w-full p-3"
+            className="w-full p-3 rounded-lg border-2"
           />
           <input
             data-aos="fade-up"
             type="text"
             placeholder="Your Email"
-            className="w-full p-3"
+            className="w-full p-3 rounded-lg border-2"
           />
           <input
             data-aos="fade-up"
             type="text"
             placeholder="Your Contact Number"
-            className="w-full p-3"
+            className="w-full p-3 rounded-lg border-2"
           />
           <input
             data-aos="fade-up"
             type="text"
             placeholder="Your Message"
-            className="w-full p-3"
+            className="w-full p-3 rounded-lg border-2"
           />
-        </div>
-        <div className="flex justify-center">
-            <button className="text-center mt-10 cursor-pointer bg-primary text-white py-4 px-8 rounded-2xl text-lg font-bold">
+          <div className="justify-center flex">
+          <button className="text-center mb-4 cursor-pointer bg-logo/80 text-white py-3 hover:bg-logo duration-300 hover:border-red-800 hover:border-2 hover:text-black px-[100px]  rounded-2xl text-lg font-semibold" data-aos="fade-up">
               Send
             </button>
-            
-          </div> 
+          </div>
+          
+
+        </div>
+    
           <div className="items-center justify-center flex mt-16">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4620.953260895031!2d79.84723217564674!3d6.912462193087039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2594248d28dab%3A0x8bc3ed31183b85e4!2s18%20St%20Michaels%20Rd%2C%20Colombo%2000300!5e1!3m2!1sen!2slk!4v1724929449557!5m2!1sen!2slk" className="w-[1400px] h-[500px] rounded-2xl"></iframe>
             </div>

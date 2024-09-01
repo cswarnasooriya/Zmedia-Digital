@@ -44,18 +44,18 @@ const Footer = () => {
       <div className="container">
         <div data-aos="zoom-in" className="grid md:grid-cols-3 pb-44 pt-5">
           {/* company details */}
-          <div className="py-8 px-4">
-            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center  text-orange-500 gap-3">
-              <img src={footerLogo} alt="" className="  max-w-[60px]" />
-              Zmedia
+          <div className="py-8 px-2">
+            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-2 flex items-center  text-orange-500 pl-8">
+              <img src={footerLogo} alt="" className="  max-w-[120px]" />
+              
             </h1>
             <p>
-            Emerging | Trendy | Innovative <br/> <br/>
+            Emerging | Trendy | Innovative | Inspiring | Quality <br/> <br/>
             Zmedia is to deliver tailored digital marketing solutions that accelerate business success.
             </p>
             <br/>
             <p className="text-logo">
-            All Right Reserved by Zmedia Digital Solutions 2024-2025
+            All Right Reserved by  Zmedia Digital Solutions<br/> 2024-2025
           
             </p>
             

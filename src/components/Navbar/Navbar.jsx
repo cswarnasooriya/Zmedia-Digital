@@ -22,12 +22,42 @@ const Menu = [
   {
     id: 3,
     name: "Contact Us",
-    link: "/#",
+    link: "#contact",
   },
  
 ];
 
 const DropdownLinks = [
+  {
+    id: 1,
+    name: "More Search",
+    link: "/#",
+  },
+  {
+    id: 2,
+    name: "Best Selling",
+    link: "/#",
+  },
+  {
+    id: 3,
+    name: "Top Rated",
+    link: "/#",
+  },
+  {
+    id: 1,
+    name: "More Ser",
+    link: "/#",
+  },
+  {
+    id: 2,
+    name: "Best Selling",
+    link: "/#",
+  },
+  {
+    id: 3,
+    name: "Top Rated",
+    link: "/#",
+  },
   {
     id: 1,
     name: "More Ser",
