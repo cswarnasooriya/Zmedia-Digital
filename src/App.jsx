@@ -34,7 +34,7 @@ const App = () => {
       <Products />
       <TopProducts handleOrderPopup={handleOrderPopup} />
       <Banner />
-      <Subscribe />
+      <Subscribe id="#contact" />
       <Testimonials />
       <Footer />
       <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />

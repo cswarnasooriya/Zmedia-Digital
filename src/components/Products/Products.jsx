@@ -17,7 +17,7 @@ const ProductsData = [
     img: Img1,
     title: "Digital Stratergy",
     rating: 5.0,
-    color: "white",
+    color: "75%",
     aosDelay: "0",
   },
   {
@@ -25,7 +25,7 @@ const ProductsData = [
     img: Img2,
     title: "Brands Automation",
     rating: 4.5,
-    color: "Red",
+    color: "60%",
     aosDelay: "200",
   },
   {
@@ -33,7 +33,7 @@ const ProductsData = [
     img: Img3,
     title: "Creative Solutions",
     rating: 4.7,
-    color: "brown",
+    color: "80%",
     aosDelay: "400",
   },
   {
@@ -41,7 +41,7 @@ const ProductsData = [
     img: Img4,
     title: "AI Technologies",
     rating: 4.4,
-    color: "Yellow",
+    color: "85%",
     aosDelay: "600",
   },
   {
@@ -49,7 +49,7 @@ const ProductsData = [
     img: Img5,
     title: "Content Designs",
     rating: 4.5,
-    color: "Pink",
+    color: "70%",
     aosDelay: "800",
   },
   {
@@ -57,7 +57,7 @@ const ProductsData = [
     img: Img6,
     title: "Media Consultency",
     rating: 5.0,
-    color: "white",
+    color: "65%",
     aosDelay: "0",
   },
   {
@@ -65,7 +65,7 @@ const ProductsData = [
     img: Img7,
     title: "SEO",
     rating: 4.8,
-    color: "white",
+    color: "70%",
     aosDelay: "0",
   },
   {
@@ -73,7 +73,7 @@ const ProductsData = [
     img: Img8,
     title: "Email and CRM",
     rating: 4.9,
-    color: "white",
+    color: "55%",
     aosDelay: "0",
   },
   {
@@ -81,7 +81,7 @@ const ProductsData = [
     img: Img9,
     title: "Web Development",
     rating: 5.0,
-    color: "white",
+    color: "90%",
     aosDelay: "0",
   },
   {
@@ -89,7 +89,7 @@ const ProductsData = [
     img: Img10,
     title: "Paid Marketing",
     rating: 4.8,
-    color: "white",
+    color: "75%",
     aosDelay: "0",
   },
  
@@ -97,7 +97,7 @@ const ProductsData = [
 
 const Products = () => {
   return (
-    <div className="mt-14 mb-12">
+    <div className="mt-14 mb-12" id="pro">
       <div className="container">
         {/* Header section */}
         <div className="text-center mb-10 max-w-[900px] mx-auto">
