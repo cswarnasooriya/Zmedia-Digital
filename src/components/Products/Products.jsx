@@ -1,14 +1,14 @@
 import React from "react";
-import Img1 from "../../assets/women/Socialservice_1.png";
-import Img2 from "../../assets/women/Brandservice_4.png";
-import Img3 from "../../assets/women/AIservice_1.png";
-import Img4 from "../../assets/women/AIservice.png";
-import Img5 from "../../assets/women/Contentservice_2.png";
-import Img6 from "../../assets/women/Socialservice_6.png";
-import Img7 from "../../assets/women/SEOservice_1.png";
-import Img8 from "../../assets/women/Emailservice_3.png";
-import Img9 from "../../assets/women/PaidService.png";
-import Img10 from "../../assets/women/Webservice_1.png";
+import Img1 from "../../assets/women/ServiceN_21.png";
+import Img2 from "../../assets/women/Service_9.png";
+import Img3 from "../../assets/women/ServiceN_20.png";
+import Img4 from "../../assets/women/ServiceN_17.png";
+import Img5 from "../../assets/women/Service_1.png";
+import Img6 from "../../assets/women/ServiceN_22.png";
+import Img7 from "../../assets/women/ServiceN_16.png";
+import Img8 from "../../assets/women/Service_8.png";
+import Img9 from "../../assets/women/ServiceN_23.png";
+import Img10 from "../../assets/women/Service_2.png";
 import { FaStar } from "react-icons/fa6";
 
 const ProductsData = [
@@ -78,7 +78,7 @@ const ProductsData = [
   },
   {
     id: 9,
-    img: Img10,
+    img: Img9,
     title: "Web Development",
     rating: 5.0,
     color: "white",
@@ -86,7 +86,7 @@ const ProductsData = [
   },
   {
     id: 10,
-    img: Img9,
+    img: Img10,
     title: "Paid Marketing",
     rating: 4.8,
     color: "white",
