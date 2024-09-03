@@ -165,7 +165,7 @@ const TopProducts = ({ handleOrderPopup }) => {
           Featured Services
           </h1>
 
-          <p data-aos="fade-up" className="text-xs text-gray-700  dark:text-gray-400 leading-7  text-[21px] pb-12 justify-center font-semibold">
+          <p data-aos="fade-up" className="text-xl text-gray-700  dark:text-gray-400 leading-7  text-[21px] pb-12 justify-center font-semibold">
             Here are the our trending and very former services in past few years. It help you to get clear idea about us more over.
           </p>
         </div>
@@ -204,7 +204,7 @@ const TopProducts = ({ handleOrderPopup }) => {
                   className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-logo"
                   onClick={handleOrderPopup}
                 >
-                  See More
+                  Hire Now
                 </button>
               </div>
             </div>
