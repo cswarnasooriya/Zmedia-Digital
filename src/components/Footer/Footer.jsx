@@ -30,11 +30,11 @@ const FooterLinks = [
   },
   {
     title: "Services",
-    link: "/#contact",
+    link: "#pro",
   },
   {
     title: "Contact",
-    link: "/#blog",
+    link: "./components/Subscribe/Subscribe",
   },
 ];
 
@@ -123,7 +123,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
-                  <p>+94 76 7845926</p>
+                  <p>+94 76 8623225</p>
                 </div>
               </div>
             </div>
