@@ -7,17 +7,17 @@ const Menu = [
   {
     id: 1,
     name: "Home",
-    link: "/#",
+    link: "#",
   },
   {
     id: 2,
     name: "Services",
-    link: "#pro",
+    link: "#product",
   },
   {
     id: 3,
     name: "Reviews",
-    link: "#",
+    link: "#reviews",
   },
   {
     id: 3,
@@ -31,47 +31,47 @@ const DropdownLinks = [
   {
     id: 1,
     name: "web Development",
-    link: "/#",
+    link: "#topproduct",
   },
   {
     id: 2,
     name: "Digital Transformation",
-    link: "/#",
+    link: "#topproduct",
   },
   {
     id: 3,
     name: "Competitive Analysis",
-    link: "/#",
+    link: "#topproduct",
   },
   {
     id: 1,
     name: "Audience and Personas",
-    link: "/#",
+    link: "#topproduct",
   },
   {
     id: 2,
     name: "Marketing Strategy",
-    link: "/#",
+    link: "#topproduct",
   },
   {
     id: 3,
     name: "Content Strategy",
-    link: "/#",
+    link: "#topproduct",
   },
   {
     id: 1,
     name: "Brand Campaing",
-    link: "/#",
+    link: "#topproduct",
   },
   {
     id: 2,
     name: "Brand Story",
-    link: "/#",
+    link: "#topproduct",
   },
   {
     id: 3,
     name: "Add Creation",
-    link: "/#",
+    link: "#topproduct",
   },
 ];
 
