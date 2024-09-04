@@ -18,8 +18,8 @@ const Subscribe = () => {
       
       id="contact"
     >
-      <div className="container backdrop-blur-[8px] py-4 lg:px-[100px] px-[25px]">
-        <div className="space-y-6 max-w-xl mx-auto bg-blue-50 px-8 py-4 rounded-3xl">
+      <div className="container backdrop-blur-[12px] py-12 lg:px-[100px] px-[25px]">
+        <div className="space-y-10 max-w-[1350px] mx-auto bg-blue-50 px-12 py-8 rounded-3xl">
           <h1 className="text-3xl !text-center sm:text-left sm:text-4xl font-bold text-orange-500">
             Always Touch with Us
           </h1>
