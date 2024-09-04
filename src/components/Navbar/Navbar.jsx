@@ -17,7 +17,7 @@ const Menu = [
   {
     id: 3,
     name: "Reviews",
-    link: "/#pro",
+    link: "#",
   },
   {
     id: 3,
@@ -30,47 +30,47 @@ const Menu = [
 const DropdownLinks = [
   {
     id: 1,
-    name: "More Search",
+    name: "web Development",
     link: "/#",
   },
   {
     id: 2,
-    name: "Best Selling",
+    name: "Digital Transformation",
     link: "/#",
   },
   {
     id: 3,
-    name: "Top Rated",
+    name: "Competitive Analysis",
     link: "/#",
   },
   {
     id: 1,
-    name: "More Ser",
+    name: "Audience and Personas",
     link: "/#",
   },
   {
     id: 2,
-    name: "Best Selling",
+    name: "Marketing Strategy",
     link: "/#",
   },
   {
     id: 3,
-    name: "Top Rated",
+    name: "Content Strategy",
     link: "/#",
   },
   {
     id: 1,
-    name: "More Ser",
+    name: "Brand Campaing",
     link: "/#",
   },
   {
     id: 2,
-    name: "Best Selling",
+    name: "Brand Story",
     link: "/#",
   },
   {
     id: 3,
-    name: "Top Rated",
+    name: "Add Creation",
     link: "/#",
   },
 ];
