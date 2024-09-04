@@ -22,19 +22,19 @@ const BannerImg = {
 const FooterLinks = [
   {
     title: "Home",
-    link: "/#",
-  },
-  {
-    title: "About",
-    link: "/#about",
+    link: "#",
   },
   {
     title: "Services",
-    link: "#pro",
+    link: "#topproduct",
+  },
+  {
+    title: "Reviews",
+    link: "#reviews",
   },
   {
     title: "Contact",
-    link: "./components/Subscribe/Subscribe",
+    link: "#contact",
   },
 ];
 
@@ -91,7 +91,7 @@ const Footer = () => {
                       className="cursor-pointer hover:text-logo hover:translate-x-1 duration-300 text-gray-200"
                       key={link.title}
                     >
-                      <span>{link.title}</span>
+                      <a href={link.link}>{link.title}</a>
                     </li>
                   ))}
                 </ul>
