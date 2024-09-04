@@ -72,14 +72,14 @@ const Testimonials = () => {
       <div className="container">
         {/* header section */}
         <div className="text-center mb-10 max-w-[900px] mx-auto">
-          <p data-aos="fade-up" className="text-[24px] dark:text-logo/90 text-logo/80">
+          <p data-aos="fade-up" className="lg:text-[24px] text-[20px] dark:text-logo/90 text-logo/80">
             What our customers are saying
           </p>
-          <h1 data-aos="fade-up" className="text-6xl font-bold">
+          <h1 data-aos="fade-up" className="lg:text-6xl text-4xl font-bold">
             Testimonials
           </h1>
-          <p data-aos="fade-up" className="text-[19px] text-gray-600 dark:text-gray-300 text-justify font-bold py-4">
-          We prioritize understanding our clients’ unique needs and crafting strategies that foster meaningful connections with their.
+          <p data-aos="fade-up" className="lg:text-[19px] text-[16px] text-gray-600 dark:text-gray-300 text-justify font-bold py-4">
+          We prioritize understanding unique needs and crafting strategies that foster connections with their.
           </p>
         </div>
 
@@ -96,13 +96,13 @@ const Testimonials = () => {
                     <img
                       src={data.img}
                       alt=""
-                      className="rounded-full w-20 h-20"
+                      className="w-20 h-20 rounded-full"
                     />
                   </div>
                   <div className="flex flex-col items-center gap-4">
                     <div className="space-y-3">
-                      <p className="text-[16px] text-black/60 dark:text-gray-200">{data.text}</p>
-                      <h1 className="text-xl font-medium text-black/70 dark:text-light">
+                      <p className="lg:text-[16px] text-[14px] text-black/60 dark:text-gray-200">{data.text}</p>
+                      <h1 className="lg:text-xl text-lg font-medium text-black/70 dark:text-light">
                         {data.name}
                       </h1>
                     </div>

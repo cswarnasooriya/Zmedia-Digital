@@ -104,10 +104,10 @@ const Products = () => {
           <p data-aos="fade-up" className="text-[26px] text-logo dark:text-gray-500">
            Our Top Services for you
           </p>
-          <h1 data-aos="fade-up" className="text-6xl font-bold pb-8">
+          <h1 data-aos="fade-up" className="lg:text-6xl text-4xl font-bold pb-8">
             Services
           </h1>
-          <p data-aos="fade-up" className="text-[18px] text-justify dark:text-gray-400 text-gray-600 font-bold m-2 pb-4 flex items-center">
+          <p data-aos="fade-up" className="lg:text-[18px] text-[15px] text-center dark:text-gray-400 text-gray-600 font-bold m-2 pb-4 flex items-center">
           Expertly crafting websites with creative design, optimizing visibility through digital marketing and SEO, and delivering user-friendly UX/UI, all focused on enhancing your brand's success.
           </p>
         </div>

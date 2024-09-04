@@ -52,7 +52,7 @@ const ProductsData = [
   {
     id: 5,
     img: Img5,
-    title: "Marketing Stratergy",
+    title: "Marketing Strategy",
     description:
       "Design and implement strategic marketing plans to promote products or services effectively and reach target audiences.",
   },
@@ -73,7 +73,7 @@ const ProductsData = [
   {
     id: 8,
     img: Img8,
-    title: "Collateral development",
+    title: "Collateral Development",
     description:
       "Create branded materials such as brochures, business cards, and flyers that support marketing efforts and reinforce brand identity.",
   },
@@ -158,14 +158,14 @@ const TopProducts = ({ handleOrderPopup }) => {
         {/* Header section */}
         <div className="text-center mb-24">
 
-          <p data-aos="fade-up" className="text-3xl dark;text-primary text-logo">
+          <p data-aos="fade-up" className="lg:text-3xl text-2xl dark;text-primary text-logo">
             Our Featured Services For You
           </p>
-          <h1 data-aos="fade-up" className="text-6xl font-bold mb-8">
+          <h1 data-aos="fade-up" className="lg:text-6xl text-4xl font-bold mb-8">
           Featured Services
           </h1>
 
-          <p data-aos="fade-up" className="text-xl text-gray-700  dark:text-gray-400 leading-7  text-[21px] pb-12 justify-center font-semibold">
+          <p data-aos="fade-up" className="text-xl lg:text-xl text-gray-700  dark:text-gray-400 leading-7  text-[21px] pb-12 justify-center font-semibold">
             Here are the our trending and very former services in past few years. It help you to get clear idea about us more over.
           </p>
         </div>
