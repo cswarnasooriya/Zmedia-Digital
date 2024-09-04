@@ -97,7 +97,7 @@ const ProductsData = [
 
 const Products = () => {
   return (
-    <div className="mt-14 mb-12" id="pro">
+    <div className="mt-14 mb-12" id="product">
       <div className="container">
         {/* Header section */}
         <div className="text-center mb-10 max-w-[900px] mx-auto">
