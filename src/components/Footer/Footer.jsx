@@ -103,7 +103,7 @@ const Footer = () => {
             <div>
               <div className="flex items-center gap-3 mt-6">
                 
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=61564593424240">
                   <FaFacebook className="text-3xl" />
                 </a>
                 <a href="#">
