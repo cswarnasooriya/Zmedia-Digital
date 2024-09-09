@@ -1,4 +1,4 @@
-import React from "react";
+
 import Img1 from "../../assets/women/ServiceN_21.png";
 import Img2 from "../../assets/women/Service_9.png";
 import Img3 from "../../assets/women/ServiceN_20.png";
@@ -17,7 +17,7 @@ const ProductsData = [
     img: Img1,
     title: "Digital Stratergy",
     rating: 5.0,
-    color: "75%",
+    color: "95%",
     aosDelay: "0",
   },
   {
@@ -25,7 +25,7 @@ const ProductsData = [
     img: Img2,
     title: "Brands Automation",
     rating: 4.5,
-    color: "60%",
+    color: "88%",
     aosDelay: "200",
   },
   {
@@ -33,7 +33,7 @@ const ProductsData = [
     img: Img3,
     title: "Creative Solutions",
     rating: 4.7,
-    color: "80%",
+    color: "95%",
     aosDelay: "400",
   },
   {
@@ -41,7 +41,7 @@ const ProductsData = [
     img: Img4,
     title: "AI Technologies",
     rating: 4.4,
-    color: "85%",
+    color: "95%",
     aosDelay: "600",
   },
   {
@@ -49,7 +49,7 @@ const ProductsData = [
     img: Img5,
     title: "Content Designs",
     rating: 4.5,
-    color: "70%",
+    color: "90%",
     aosDelay: "800",
   },
   {
@@ -57,7 +57,7 @@ const ProductsData = [
     img: Img6,
     title: "Media Consultency",
     rating: 5.0,
-    color: "65%",
+    color: "97%",
     aosDelay: "0",
   },
   {
@@ -65,7 +65,7 @@ const ProductsData = [
     img: Img7,
     title: "SEO",
     rating: 4.8,
-    color: "70%",
+    color: "92%",
     aosDelay: "0",
   },
   {
@@ -73,7 +73,7 @@ const ProductsData = [
     img: Img8,
     title: "Email and CRM",
     rating: 4.9,
-    color: "55%",
+    color: "97%",
     aosDelay: "0",
   },
   {
@@ -81,7 +81,7 @@ const ProductsData = [
     img: Img9,
     title: "Web Development",
     rating: 5.0,
-    color: "90%",
+    color: "95%",
     aosDelay: "0",
   },
   {
@@ -89,7 +89,7 @@ const ProductsData = [
     img: Img10,
     title: "Paid Marketing",
     rating: 4.8,
-    color: "75%",
+    color: "88%",
     aosDelay: "0",
   },
  
