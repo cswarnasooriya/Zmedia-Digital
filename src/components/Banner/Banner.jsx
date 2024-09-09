@@ -1,8 +1,8 @@
 
 import BannerImg from "../../assets/women/banner_1.png";
 import { GrSecure, GrSupport } from "react-icons/gr";
-import { GiTeamIdea, GiThreeFriends } from "react-icons/gi";
-import { FaTimeline } from "react-icons/fa6";
+import { GiCentaurHeart, GiClusterBomb, GiFireShrine, GiGroundSprout, GiHelp, GiTeamDowngrade, GiTeamIdea, GiTeamUpgrade, GiThreeFriends } from "react-icons/gi";
+import { FaSuperpowers, FaTeamspeak, FaTimeline } from "react-icons/fa6";
 
 const Banner = () => {
   return (
@@ -31,7 +31,7 @@ const Banner = () => {
             </p>
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center font-bold gap-4">
-                <GiTeamIdea className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
+                <GiThreeFriends className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
                 <p>Exceptional Team</p>
               </div>
               <div data-aos="fade-up" className="flex items-center font-bold gap-4">
@@ -43,17 +43,17 @@ const Banner = () => {
                 <p>Rapid Development</p>
               </div>
               <div data-aos="fade-up" className="flex items-center font-bold gap-4">
-                <GiThreeFriends className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
+                <GiTeamDowngrade className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
                 <p>Customer-Centric Approach</p>
               </div>
               <div data-aos="fade-up" className="flex items-center font-bold gap-4">
-                <GrSupport className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
+                <GiHelp className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
                 <p>24/7 Online Support</p>
               </div>
             </div>
             <div>
-              <p className="text-[18px] text-justify text-red-900">
-              Choose Zmedia Digital Solutions (PVT) LTD for a partner who combines expertise, quality, and exceptional service to drive your success.
+              <p data-aos="fade-up" className="text-[18px] text-justify font-semibold text-blue-900 dark:text-white/70">
+              Choose Zmedia Digital Solutions (PVT) LTD for a Partner who combines Expertise, Quality, and Exceptional Service to Drive Your Success...
               </p>
             </div>
           </div>

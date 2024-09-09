@@ -97,7 +97,11 @@ const Navbar = ({ handleOrderPopup }) => {
 )
 
   return (
-    <div className={header ? "fixed w-[100%]":" "}> 
+    <div className={`${
+      header
+        ? "fixed top-0 left-0 w-full z-[50] bg-white shadow-md dark:bg-gray-800 dark:text-white transition-all duration-300"
+        : "relative"
+    }`}> 
       <div className="shadow-md bg-white  dark:bg-gray-800 dark:text-white duration-200 relative z-40">
       {/* upper Navbar */}
       <div className="py-1 bg-gray-800 dark:bg-primary/40">
