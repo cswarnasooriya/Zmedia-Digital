@@ -2,6 +2,7 @@ import Logo from "../../assets/logo.png";
 import { IoMdContact, IoMdSearch } from "react-icons/io";
 import { FaCaretDown,  } from "react-icons/fa";
 import DarkMode from "./DarkMode";
+import { useEffect, useState } from "react";
 
 const Menu = [
   {
@@ -76,8 +77,28 @@ const DropdownLinks = [
 ];
 
 const Navbar = ({ handleOrderPopup }) => {
+  const [header,setHeader]=useState(false);
+  const scrollHeader = ()=>{
+    if (window.scrollY>=20){
+      setHeader(true)
+    }
+    else {
+      setHeader(false)
+    }
+  }
+
+  useEffect(()=>{
+    window.addEventListener('scroll',scrollHeader)
+
+    return()=>{
+      window.addEventListener('scroll',scrollHeader)
+    }
+  },[]
+)
+
   return (
-    <div className="shadow-md bg-white  dark:bg-gray-800 dark:text-white duration-200 relative z-40">
+    <div className={header ? "fixed w-[100%]":" "}> 
+      <div className="shadow-md bg-white  dark:bg-gray-800 dark:text-white duration-200 relative z-40">
       {/* upper Navbar */}
       <div className="py-1 bg-gray-800 dark:bg-primary/40">
         <div className="container flex justify-between items-center">
@@ -155,6 +176,7 @@ const Navbar = ({ handleOrderPopup }) => {
           </li>
         </ul>
       </div>
+    </div>
     </div>
   );
 };

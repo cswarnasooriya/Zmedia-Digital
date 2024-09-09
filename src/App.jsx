@@ -10,6 +10,7 @@ import Subscribe from "./components/Subscribe/Subscribe";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
 import Popup from "./components/Popup/Popup";
+import ScrollToTop from "react-scroll-to-top";
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
@@ -38,7 +39,10 @@ const App = () => {
       <Testimonials />
       <Footer />
       <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
+    
+< ScrollToTop smooth top="150"/>
     </div>
+    
   );
 };
 
