@@ -166,7 +166,7 @@ const Navbar = ({ handleOrderPopup }) => {
               <a href="#" className="flex items-center font-bold text-[18px] gap-[8px] py-5 hover:text-logo duration-200">
                 Trending Services
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
-                </span>
+               
               </a>
               <div className="absolute z-[9999] hidden group-hover:block w-[250px] rounded-lg bg-blue-50 p-4 text-black shadow-md">
                 <ul>
