@@ -134,6 +134,7 @@ const Navbar = ({ handleOrderPopup }) => {
               </span>
               <IoMdContact className="text-xl text-white drop-shadow-sm cursor-pointer" />
             </button>
+            
 
             {/* Darkmode Switch */}
             <div>
