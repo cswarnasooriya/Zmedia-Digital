@@ -124,42 +124,47 @@ const Navbar = ({ handleOrderPopup }) => {
                 <IoMdSearch className="text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3" />
               </div>
 
-            {/* order button */}
-            <button
-              onClick={() => handleOrderPopup()}
-              className="bg-gradient-to-r from-logo/70 to-secondary transition-all duration-200 text-white  py-1 px-4 rounded-full flex items-center gap-3 group"
-            >
-              <span className="group-hover:block hidden transition-all duration-100 font-semibold">
-                Hire Now
-              </span>
-              <IoMdContact className="text-xl text-white drop-shadow-sm cursor-pointer" />
-            </button>
+              {/* Order button */}
+              <button
+                onClick={() => handleOrderPopup()}
+                className="bg-gradient-to-r from-logo/70 to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3 group"
+              >
+                
+                <span className="group-hover:block hidden transition-all duration-100 font-semibold">
+                Hire Now?
+              </span>
+              <FaWhatsapp className="text-xl text-white drop-shadow-sm cursor-pointer" />
+              </button>
 
-            {/* Darkmode Switch */}
-            <div>
-              <DarkMode />
+              {/* WhatsApp Button */}
+              
+
+              {/* Dark Mode Switch */}
+              <div>
+                <DarkMode />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      {/* lower Navbar */}
-      <div data-aos="zoom-in" className="flex justify-center">
-        <ul className="sm:flex hidden items-center gap-4">
-          {Menu.map((data) => (
-            <li key={data.id}>
-              <a
-                href={data.link}
-                className="inline-block px-16 font-bold text-[19px]  hover:text-logo duration-200"
-              >
-                {data.name}
-              </a>
-            </li>
-          ))}
-          {/* Simple Dropdown and Links */}
-          <li className="group relative cursor-pointer">
-            <a href="#" className="flex items-center font-bold text-[18px] gap-[8px] py-5 hover:text-logo duration-200">
-              Trending Services
-              <span>
+
+        {/* Lower Navbar */}
+        <div data-aos="zoom-in" className="flex justify-center">
+          <ul className="sm:flex hidden items-center gap-4">
+            {Menu.map((data) => (
+              <li key={data.id}>
+                <a
+                  href={data.link}
+                  className="inline-block px-16 font-bold text-[19px] hover:text-logo duration-200"
+                >
+                  {data.name}
+                </a>
+              </li>
+            ))}
+            
+            {/* Dropdown Links */}
+            <li className="group relative cursor-pointer">
+              <a href="#" className="flex items-center font-bold text-[18px] gap-[8px] py-5 hover:text-logo duration-200">
+                Trending Services
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
                 </span>
               </a>
