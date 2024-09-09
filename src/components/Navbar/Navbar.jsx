@@ -97,16 +97,17 @@ const Navbar = ({ handleOrderPopup }) => {
   }, []);
 
   return (
-    <div className={header ? "fixed w-[100%]" : ""}> 
-      <div className="shadow-md bg-white dark:bg-gray-800 dark:text-white duration-200 relative z-40">
-        {/* Upper Navbar */}
-        <div className="py-1 bg-gray-800 dark:bg-primary/40">
-          <div className="container flex justify-between items-center">
-            <div>
-              <a href="#" className="font-bold text-4xl sm:text-5xl flex gap-2">
-                <img src={Logo} alt="Logo" width="210px" />
-              </a>
-            </div>
+    <div className={header ? "fixed w-[100%]":" "}> 
+      <div className="shadow-md bg-white  dark:bg-gray-800 dark:text-white duration-200 relative z-40">
+      {/* upper Navbar */}
+      <div className="py-1 bg-gray-800 dark:bg-primary/40">
+        <div className="container flex justify-between items-center">
+          <div>
+            <a href="#" className="font-bold text-4xl sm:text-5xl flex gap-2">
+              <img src={Logo} alt="Logo" width="210px" />
+              
+            </a>
+          </div>
 
             {/* Search bar */}
             <div className="flex justify-between items-center gap-4">

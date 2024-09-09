@@ -40,6 +40,25 @@ const FooterLinks = [
   },
 ];
 
+const FooterLinks2 = [
+  {
+    title: "FAQ",
+    link: "#",
+  },
+  {
+    title: "About",
+    link: "#topproduct",
+  },
+  {
+    title: "Projects",
+    link: "#reviews",
+  },
+  {
+    title: "Hire",
+    link: "#contact",
+  },
+];
+
 const Footer = () => {
   return (
     <div style={BannerImg} className="text-white">
@@ -51,13 +70,13 @@ const Footer = () => {
               <img src={footerLogo} alt="" className="  max-w-[120px]" />
               
             </h1>
-            <p>
+            <p className="font-mono text-[15px]">
             Emerging | Trendy | Innovative | Inspiring | Quality <br/> <br/>
-            Zmedia is to deliver tailored digital marketing solutions that accelerate business success.
+            Zmedia is to deliver tailored digital marketing solutions that accelerate business success with treandy world.
             </p>
             <br/>
             <p className="text-logo">
-            All Right Reserved by  Zmedia Digital Solutions<br/> 2024-2025
+            All Right Reserved by  KingHoldings Capital (PVT) Ltd.<br/> @ 2024-2025
           
             </p>
             
@@ -65,7 +84,7 @@ const Footer = () => {
 
           {/* Footer Links */}
           <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
-            <div>
+            {/* <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Easy Connect
@@ -81,11 +100,11 @@ const Footer = () => {
                   ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Links
+                  Easy Links
                 </h1>
                 <ul className="flex flex-col gap-3">
                   {FooterLinks.map((link) => (
@@ -100,10 +119,28 @@ const Footer = () => {
               </div>
             </div>
 
+            <div>
+              <div className="py-8 px-4">
+                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+                  Easy Touch
+                </h1>
+                <ul className="flex flex-col gap-3">
+                  {FooterLinks2.map((link) => (
+                    <li
+                      className="cursor-pointer hover:text-logo hover:translate-x-1 duration-300 text-gray-200"
+                      key={link.title}
+                    >
+                      <a href={link.link}>{link.title}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
             {/* social links */}
 
             <div>
-              <div className="flex items-center gap-3 mt-6">
+              <div className="flex items-center gap-14 mt-6">
                 
                 <a href="https://www.facebook.com/profile.php?id=61564593424240">
                   <FaFacebook className="text-3xl" />
