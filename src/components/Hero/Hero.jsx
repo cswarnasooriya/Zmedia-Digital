@@ -1,4 +1,3 @@
-import React from "react";
 import Image1 from "../../assets/hero/hero_1.png";
 import Image2 from "../../assets/hero/hero_2.png";
 import Image3 from "../../assets/hero/hero_3.png";
@@ -41,10 +40,10 @@ const Hero = ({ handleOrderPopup }) => {
     dots: false,
     arrows: false,
     infinite: true,
-    speed: 800,
+    speed: 600,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3500,
     cssEase: "ease-in-out",
     pauseOnHover: false,
     pauseOnFocus: true,
@@ -53,7 +52,7 @@ const Hero = ({ handleOrderPopup }) => {
   return (
     <div className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-200 flex justify-center items-center dark:bg-gray-900 dark:text-white duration-200 ">
       {/* background pattern */}
-      <div className="h-[700px] w-[700px] bg-logo/90 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
+      <div className="h-[700px] w-[800px] bg-logo/90 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
       {/* hero section */}
       <div className="container pb-8 sm:pb-0">
         <Slider {...settings}>
@@ -87,7 +86,7 @@ const Hero = ({ handleOrderPopup }) => {
                   >
                     <button
                       onClick={handleOrderPopup}
-                      className="bg-gradient-to-r from-primary to-secondary hover:scale-110 duration-200 text-white py-2 px-10 rounded-full"
+                      className="bg-gradient-to-r from-logo/60 to-logo hover:scale-110 duration-200 text-blue-600 font-bold py-3 px-10 rounded-full"
                     >
                       Hire Now
                     </button>
@@ -103,7 +102,7 @@ const Hero = ({ handleOrderPopup }) => {
                     <img
                       src={data.img}
                       alt=""
-                      className="w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-105 lg:scale-120 object-contain mx-auto"
+                      className="w-[400px] h-[400px] sm:h-[550px] sm:w-[500px] sm:scale-105 lg:scale-120 object-contain mx-auto"
                     />
                   </div>
                 </div>
