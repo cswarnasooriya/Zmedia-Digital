@@ -31,12 +31,12 @@ const Menu = [
 const DropdownLinks = [
   {
     id: 1,
-    name: "web Development",
+    name: "Web Development",
     link: "#topproduct",
   },
   {
     id: 2,
-    name: "Digital Transformation",
+    name: "Digital Strategy",
     link: "#topproduct",
   },
   {
@@ -46,7 +46,7 @@ const DropdownLinks = [
   },
   {
     id: 1,
-    name: "Audience and Personas",
+    name: "SEO",
     link: "#topproduct",
   },
   {
@@ -123,10 +123,10 @@ const Navbar = ({ handleOrderPopup }) => {
             {/* order button */}
             <button
               onClick={() => handleOrderPopup()}
-              className="bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white  py-1 px-4 rounded-full flex items-center gap-3 group"
+              className="bg-gradient-to-r from-logo/70 to-secondary transition-all duration-200 text-white  py-1 px-4 rounded-full flex items-center gap-3 group"
             >
-              <span className="group-hover:block hidden transition-all duration-200">
-                Hire Us
+              <span className="group-hover:block hidden transition-all duration-100 font-semibold">
+                Hire Now
               </span>
               <IoMdContact className="text-xl text-white drop-shadow-sm cursor-pointer" />
             </button>
@@ -145,7 +145,7 @@ const Navbar = ({ handleOrderPopup }) => {
             <li key={data.id}>
               <a
                 href={data.link}
-                className="inline-block px-8 font-bold text-[18px] hover:text-logo duration-200"
+                className="inline-block px-16 font-bold text-[19px]  hover:text-logo duration-200"
               >
                 {data.name}
               </a>
@@ -153,13 +153,13 @@ const Navbar = ({ handleOrderPopup }) => {
           ))}
           {/* Simple Dropdown and Links */}
           <li className="group relative cursor-pointer">
-            <a href="#" className="flex items-center font-bold text-[18px] gap-[2px] py-2 hover:text-logo duration-200">
+            <a href="#" className="flex items-center font-bold text-[18px] gap-[8px] py-5 hover:text-logo duration-200">
               Trending Services
               <span>
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
               </span>
             </a>
-            <div className="absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white p-2 text-black shadow-md">
+            <div className="absolute z-[9999] hidden group-hover:block w-[250px] rounded-lg bg-blue-50  p-4 text-black shadow-md">
               <ul>
                 {DropdownLinks.map((data) => (
                   <li key={data.id}>
