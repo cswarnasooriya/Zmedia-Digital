@@ -1,5 +1,7 @@
 import React from "react";
 import { IoCloseOutline } from "react-icons/io5";
+import ReactWhatsapp from "react-whatsapp";
+
 
 const Popup = ({ orderPopup, setOrderPopup }) => {
   return (
@@ -11,7 +13,7 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
               {/* header */}
               <div className="flex items-center justify-between px-6 py-4">
                 <div>
-                  <h1 className="font-bold">Hire Now</h1>
+                  <h1 className="font-bold">Hire Now?</h1>
                 </div>
                 <div>
                   <IoCloseOutline
@@ -21,7 +23,7 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                 </div>
               </div>
               {/* form section */}
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <input
                   type="text"
                   placeholder="Name"
@@ -42,7 +44,15 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                     Hire Now
                   </button>
                 </div>
-              </div>
+              </div> */}
+
+              <ReactWhatsapp
+                number="+94 768623225"
+                message="Hello! I'm interested in learning more about your services."
+                className="bg-gradient-to-r from-logo/70 to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3 group"
+              >OK
+              </ReactWhatsapp>
+
             </div>
           </div>
         </div>
