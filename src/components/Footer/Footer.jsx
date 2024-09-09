@@ -2,11 +2,13 @@ import React from "react";
 import footerLogo from "../../assets/logo.png";
 import Banner from "../../assets/website/footer_1.jpg";
 import {
+  FaEnvelope,
   FaFacebook,
   FaInstagram,
   FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
+  FaVoicemail,
   FaWhatsapp,
 } from "react-icons/fa";
 
@@ -159,9 +161,15 @@ const Footer = () => {
                   <p>No 18, St Micheal Street, Colombo 03.</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
-                  <FaMobileAlt />
-                  <p>+94 76 8623225</p>
+                  <FaEnvelope />
+                  <p>info@zmediadigital.com</p>
                 </div>
+                
+                <div className="flex items-center gap-3 mt-3">
+                  <FaMobileAlt />
+                  <p>+94 76 9026435</p>
+                </div>
+               
               </div>
             </div>
           </div>
