@@ -48,7 +48,7 @@ const Subscribe = () => {
             className="w-full p-3 rounded-lg border-2"
           />
           <div className="justify-center flex">
-          <button className="text-center mb-4 cursor-pointer bg-logo/70 text-white py-3 hover:bg-logo duration-300 hover:border-red-800 hover:border-2 hover:text-black lg:px-[100px] px-[50px]  rounded-2xl text-lg font-semibold" data-aos="">
+          <button className="text-center mb-4 cursor-pointer bg-logo/70 text-white py-3 hover:bg-logo duration-300 hover:border-red-800 hover:border-2 hover:text-black lg:px-[150px] px-[110px]  rounded-2xl text-lg font-semibold" data-aos="">
               Send
             </button>
           </div>
