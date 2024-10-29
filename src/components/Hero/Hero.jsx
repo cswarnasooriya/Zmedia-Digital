@@ -74,7 +74,7 @@ const Hero = ({ handleOrderPopup }) => {
                     data-aos="fade-up"
                     data-aos-duration="500"
                     data-aos-delay="100"
-                    className="lg:text-[18px] text-[16px]"
+                    className="lg:text-[18px] text-[18px] mt-2"
                   >
                     {data.description}
                   </p>
@@ -86,7 +86,7 @@ const Hero = ({ handleOrderPopup }) => {
                   >
                     <button
                       onClick={handleOrderPopup}
-                      className="bg-gradient-to-r from-logo/60 to-logo hover:scale-110 duration-200 text-blue-600 font-bold py-3 px-10 rounded-full"
+                      className="bg-gradient-to-r from-logo/60 to-logo hover:scale-110 duration-200 text-blue-700 hover:text-black font-bold py-3 px-8 rounded-full text-md mt-4"
                     >
                       Hire Now
                     </button>

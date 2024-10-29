@@ -5,19 +5,19 @@ const TestimonialData = [
   {
     id: 1,
     name: "Mr. Saman Indika",
-    text: "I recently hired Zmedia digital solutions for my relocation, and I couldn't be happier with their service. The entire team was professional, punctual, and efficient.",
+    text: "I recently hired Zmedia digital solutions for my relocation. The entire team was professional, punctual, and efficient.",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Ms. Marry Anjello",
+    name: "Ms. Dilmi Silva",
     text: "I recently hired Zmedia digital solutions for my relocation, and I couldn't be happier with their service. The entire team was professional, punctual, and efficient.",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Mr. Anjana devage",
-    text: "I recently hired Zmedia digital solutions for my relocation, and I couldn't be happier with their service. The entire team was professional, punctual, and efficient.",
+    name: "Mr. Anjana Devage",
+    text: "I recently hired Zmedia digital solutions for my relocation, and The entire team was professional, punctual, and efficient.",
     img: "https://picsum.photos/104/104",
   },
   {
