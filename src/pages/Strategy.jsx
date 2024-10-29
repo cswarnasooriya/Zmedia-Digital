@@ -1,13 +1,13 @@
 import React from "react";
-import Img1 from  "../../src/assets/hero/ServiceNN_21.png";
-import Img2 from  "../../src/assets/hero/ServiceNN_21.png";
-import Img3 from  "../../src/assets/hero/ServiceNN_21.png";
-import Img4 from  "../../src/assets/hero/ServiceNN_21.png";
-import Img5 from  "../../src/assets/hero/ServiceNN_21.png";
-import Img6 from  "../../src/assets/hero/ServiceNN_21.png";
+import Img1 from  "../../src/assets/hero/s1.png";
+import Img2 from  "../../src/assets/hero/s2.png";
+import Img3 from  "../../src/assets/hero/s3.png";
+import Img4 from  "../../src/assets/hero/s4.png";
+import Img5 from  "../../src/assets/hero/s5.png";
+import Img6 from  "../../src/assets/hero/s6.png";
 
 
-import { FaStar } from "react-icons/fa";
+
 
 const ProductsData = [
   {
@@ -48,7 +48,7 @@ const ProductsData = [
   {
     id: 6,
     img: Img6,
-    title: "Conversion Rate Optimization (CRO)",
+    title: "Conversion Rate Optimization",
     description:
       "Plan and manage the creation, distribution, and governance of content to align with business objectives and engage audiences",
   },
@@ -60,13 +60,13 @@ const ProductsData = [
 const Strategy = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container md:mb-16">
 
         {/* Header section */}
-        <div className="text-center mb-24">
+        <div className="text-center mb-24 md:mb-48">
 
           
-          <h1 className="lg:text-6xl text-4xl font-bold mb-8">
+          <h1 className="lg:text-6xl text-4xl font-bold mb-8 md:pt-8">
           Digital Strategy
           </h1>
 
@@ -88,20 +88,14 @@ const Strategy = () => {
                 <img
                   src={data.img}
                   alt=""
-                  className="max-w-[220px] block mx-auto transform -translate-y-20 group-hover:scale-110 duration-300 drop-shadow-2xl "
+                  className="md:max-w-[260px] max-w-[230px]  block mx-auto transform -translate-y-20 group-hover:scale-110 duration-300 drop-shadow-2xl "
                 />
               </div>
               {/* details section */}
-              <div className="p-4 mb-8 text-center">
-                {/* star rating */}
-                <div className="w-full flex items-center justify-center gap-2 mb-4">
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                </div>
-                <h1 className="text-2xl font-semibold mb-4">{data.title}</h1>
-                <p className="dark:text-logo text-gray-500 group-hover:text-white duration-300 text-[16px]  line-clamp-4 text-justify mb-4">
+              <div className="p-4 mb-4 text-center">
+                
+                <h1 className="text-2xl md:text-2xl font-semibold mb-4">{data.title}</h1>
+                <p className="dark:text-logo text-gray-500 group-hover:text-white duration-300 text-[16px]  line-clamp-8 text-justify mb-4">
                   {data.description}
                 </p>
                 

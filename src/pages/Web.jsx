@@ -1,14 +1,14 @@
 import React from "react";
 import Img1 from  "../../src/assets/hero/Service_14.png";
-import Img2 from  "../../src/assets/hero/Service_14.png";
-import Img3 from  "../../src/assets/hero/Service_14.png";
-import Img4 from  "../../src/assets/hero/Service_14.png";
-import Img5 from  "../../src/assets/hero/Service_14.png";
-import Img6 from  "../../src/assets/hero/Service_14.png";
+import Img2 from  "../../src/assets/hero/a2.png";
+import Img3 from  "../../src/assets/hero/a3.png";
+import Img4 from  "../../src/assets/hero/a8.png";
+import Img5 from  "../../src/assets/hero/a1.png";
+import Img6 from  "../../src/assets/hero/Service_15.png";
 
 
 
-import { FaStar } from "react-icons/fa";
+
 
 const ProductsData = [
   {
@@ -61,7 +61,7 @@ const ProductsData = [
 const Web = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container md:pt-24">
 
         {/* Header section */}
         <div className="text-center mb-24">
@@ -94,13 +94,7 @@ const Web = () => {
               </div>
               {/* details section */}
               <div className="p-4 mb-8 text-center">
-                {/* star rating */}
-                <div className="w-full flex items-center justify-center gap-2 mb-4">
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                </div>
+             
                 <h1 className="text-2xl font-semibold mb-4">{data.title}</h1>
                 <p className="dark:text-logo text-gray-500 group-hover:text-white duration-300 text-[16px]  line-clamp-4 text-justify mb-4">
                   {data.description}

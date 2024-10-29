@@ -1,10 +1,10 @@
 import React from "react";
 import Img1 from  "../../src/assets/hero/Service_15.png";
-import Img2 from  "../../src/assets/hero/Service_15.png";
-import Img3 from  "../../src/assets/hero/Service_15.png";
+import Img2 from  "../../src/assets/hero/s2.png";
+import Img3 from  "../../src/assets/hero/a8.png";
 
 
-import { FaStar } from "react-icons/fa";
+
 
 const ProductsData = [
   {
@@ -12,14 +12,14 @@ const ProductsData = [
     img: Img1,
     title: "On-Site Technical SEO",
     description:
-      ":Optimize website structure, code, and technical elements to improve search engine visibility and performance.",
+      "Optimize website structure, code, and technical elements to improve search engine visibility and performance.",
   },
   {
     id: 2,
     img: Img2,
     title: "Content SEO",
     description:
-      ": Enhance website content to ensure it ranks well in search engines and meets the needs of users.",
+      "Enhance website content to ensure it ranks well in search engines and meets the needs of users.",
   },
   {
     id: 3,
@@ -36,13 +36,13 @@ const ProductsData = [
 const SEO = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container md:pt-16">
 
         {/* Header section */}
         <div className="text-center mb-24">
 
           
-          <h1 className="lg:text-6xl text-4xl font-bold mb-8">
+          <h1 className="lg:text-6xl text-4xl font-bold mb-8 md:mb-48">
           SEO
           </h1>
 
@@ -69,14 +69,8 @@ const SEO = () => {
               </div>
               {/* details section */}
               <div className="p-4 mb-8 text-center">
-                {/* star rating */}
-                <div className="w-full flex items-center justify-center gap-2 mb-4">
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                </div>
-                <h1 className="text-2xl font-semibold mb-4">{data.title}</h1>
+             
+                <h1 className="text-2xl md:text-3xl font-semibold mb-4">{data.title}</h1>
                 <p className="dark:text-logo text-gray-500 group-hover:text-white duration-300 text-[16px]  line-clamp-4 text-justify mb-4">
                   {data.description}
                 </p>
