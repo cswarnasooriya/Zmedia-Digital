@@ -15,7 +15,7 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Digital Stratergy",
+    title: "Digital Strategy",
     rating: 5.0,
     color: "95%",
     aosDelay: "0",
@@ -88,6 +88,7 @@ const ProductsData = [
     id: 10,
     img: Img10,
     title: "Paid Marketing",
+    link: "paid",
     rating: 4.8,
     color: "88%",
     aosDelay: "0",
@@ -122,11 +123,13 @@ const Products = () => {
                 key={data.id}
                 className="space-y-4"
               >
-                <img
-                  src={data.img}
-                  alt=""
-                  className="h-[320px] w-[300px] lg:h-[270px] lg:w-[200px] object-cover rounded-2xl border-b-4 border-r-2 hover:scale-[1.05] cursor-pointer"
-                />
+                <a href={data.link}>
+                  <img
+                    src={data.img}
+                    alt=""
+                    className="h-[320px] w-[300px] lg:h-[270px] lg:w-[200px] object-cover rounded-2xl border-b-4 border-r-2 hover:scale-[1.05] cursor-pointer"
+                  />
+                </a>
                 <div>
                   <h3 className="font-semibold text-[18px]">{data.title}</h3>
                   <p className="text-sm text-gray-500">{data.color}</p>

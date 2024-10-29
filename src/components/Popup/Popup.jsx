@@ -21,7 +21,15 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                     onClick={() => setOrderPopup(false)}
                   />
                 </div>
+                
               </div>
+
+              <p className="text-gray-700 text-justify">
+                 We are happy to meet your all requirements. So Please connect with Us Now! <br/>
+                 <br/>
+
+                
+              </p>
               {/* form section */}
               {/* <div className="mt-4">
                 <input
@@ -46,13 +54,15 @@ const Popup = ({ orderPopup, setOrderPopup }) => {
                 </div>
               </div> */}
 
+              <div className="flex items-center justify-center">
               <ReactWhatsapp
                 number="+94 768623225"
                 message="Hello! I'm interested in learning more about your services."
-                className="bg-gradient-to-r from-logo/70 to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3 group"
-              >OK
+                className="bg-gradient-to-r from-logo/70  to-secondary transition-all duration-200 text-white py-2 px-4 rounded-full flex items-center gap-3 group"
+              >Connect Now
               </ReactWhatsapp>
 
+              </div>
             </div>
           </div>
         </div>
