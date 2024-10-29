@@ -27,25 +27,25 @@ const Subscribe = () => {
             data-aos="fade-up"
             type="text"
             placeholder="Your Name"
-            className="w-full p-3 rounded-lg border-2"
+            className="w-full p-3 rounded-lg border-2 text-black"
           />
           <input
             data-aos="fade-up"
             type="text"
             placeholder="Your Email"
-            className="w-full p-3 rounded-lg border-2"
+            className="w-full p-3 rounded-lg border-2 text-black"
           />
           <input
             data-aos="fade-up"
             type="text"
             placeholder="Your Contact Number"
-            className="w-full p-3 rounded-lg border-2"
+            className="w-full p-3 rounded-lg border-2 text-black"
           />
           <input
             data-aos="fade-up"
             type="text"
             placeholder="Your Message"
-            className="w-full p-3 rounded-lg border-2"
+            className="w-full p-3 rounded-lg border-2 text-black"
           />
           <div className="justify-center flex">
           <button className="text-center mb-4 cursor-pointer bg-logo/70 text-white py-3 hover:bg-logo duration-300 hover:border-red-800 hover:border-2 hover:text-black lg:px-[150px] px-[110px]  rounded-2xl text-lg font-semibold" data-aos="">

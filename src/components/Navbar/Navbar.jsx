@@ -97,7 +97,11 @@ const Navbar = ({ handleOrderPopup }) => {
   }, []);
 
   return (
-    <div className={header ? "fixed w-[100%]":" "}> 
+    <div className={`${
+      header
+        ? "fixed top-0 left-0 w-full z-[50] bg-white shadow-md dark:bg-gray-800 dark:text-white transition-all duration-300"
+        : "relative"
+    }`}> 
       <div className="shadow-md bg-white  dark:bg-gray-800 dark:text-white duration-200 relative z-40">
       {/* upper Navbar */}
       <div className="py-1 bg-gray-800 dark:bg-primary/40">
@@ -159,9 +163,10 @@ const Navbar = ({ handleOrderPopup }) => {
             
             {/* Dropdown Links */}
             <li className="group relative cursor-pointer">
-              <a href="#" className="flex items-center font-bold text-[18px] gap-[8px] py-5 hover:text-logo duration-200">
+              <a href="#" className="flex items-center font-bold text-[18px] gap-[8px] py-5 hover:text-logo duration-200 pl-16">
                 Trending Services
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
+               
               </a>
               <div className="absolute z-[9999] hidden group-hover:block w-[250px] rounded-lg bg-blue-50 p-4 text-black shadow-md">
                 <ul>

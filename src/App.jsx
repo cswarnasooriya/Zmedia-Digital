@@ -1,46 +1,50 @@
-import React from "react";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Products from "./components/Products/Products";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import TopProducts from "./components/TopProducts/TopProducts";
-import Banner from "./components/Banner/Banner";
-import Subscribe from "./components/Subscribe/Subscribe";
-import Testimonials from "./components/Testimonials/Testimonials";
-import Footer from "./components/Footer/Footer";
-import Popup from "./components/Popup/Popup";
-import ScrollToTop from "react-scroll-to-top";
+
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Strategy from "./pages/Strategy";
+import Brands from "./pages/Brands";
+import Creative from "./pages/Creative";
+import AI from "./pages/AI";
+import Media from "./pages/Media";
+import Content from "./pages/Content";
+import SEO from "./pages/SEO";
+import Email from "./pages/Email";
+import Web from "./pages/Web";
+import Paid from "./pages/Paid";
 
 const App = () => {
-  const [orderPopup, setOrderPopup] = React.useState(false);
-
-  const handleOrderPopup = () => {
-    setOrderPopup(!orderPopup);
-  };
-  React.useEffect(() => {
-    AOS.init({
-      offset: 100,
-      duration: 800,
-      easing: "ease-in-sine",
-      delay: 100,
-    });
-    AOS.refresh();
-  }, []);
-
+  
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
-      <Navbar handleOrderPopup={handleOrderPopup} />
-      <Hero handleOrderPopup={handleOrderPopup} />
-      <Products />
-      <TopProducts handleOrderPopup={handleOrderPopup} />
-      <Banner />
-      <Subscribe id="#contact" />
-      <Testimonials />
-      <Footer />
-      <Popup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="strategy" element={<Strategy />} />
+        <Route path="brands" element={<Brands />} />
+        <Route path="creative" element={<Creative />} />
+        <Route path="AI" element={<AI />} />
+        <Route path="content" element={<Content/>} />
+        <Route path="media" element={<Media />} />
+        <Route path="seo" element={<SEO />} />
+        <Route path="email" element={<Email />} />
+        <Route path="web" element={<Web />} />
+        <Route path="paid" element={<Paid />} />
+        
+        
+      </Routes>
+    </BrowserRouter>
+
+     
+
+
+
+
+
+
+
     
-< ScrollToTop smooth top="150"/>
+
     </div>
     
   );

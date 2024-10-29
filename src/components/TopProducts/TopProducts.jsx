@@ -115,7 +115,7 @@ const ProductsData = [
   {
     id: 14,
     img: Img14,
-    title: "Artificial Interlligence",
+    title: "Artificial Intelligence",
     description:
       "Implement artificial intelligence technologies to improve user experience, personalize interactions, and optimize performance.",
   },
@@ -197,11 +197,11 @@ const TopProducts = ({ handleOrderPopup }) => {
                   <FaStar className="text-yellow-500" />
                 </div>
                 <h1 className="text-2xl font-semibold mb-4">{data.title}</h1>
-                <p className="dark:text-logo text-gray-500 group-hover:text-white duration-300 text-[16px] text-center line-clamp-2 mb-4">
+                <p className="dark:text-logo text-gray-500 group-hover:text-white duration-300 text-[16px]  line-clamp-4 text-justify mb-4">
                   {data.description}
                 </p>
                 <button
-                  className="bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-logo"
+                  className="bg-primary hover:scale-105 duration-300 text-white py-2 px-4 rounded-2xl mt-4 group-hover:bg-white group-hover:text-logo"
                   onClick={handleOrderPopup}
                 >
                   Hire Now

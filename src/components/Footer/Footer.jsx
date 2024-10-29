@@ -72,7 +72,7 @@ const Footer = () => {
             </h1>
             <p className="font-mono text-[15px]">
             Emerging | Trendy | Innovative | Inspiring | Quality <br/> <br/>
-            Zmedia is to deliver tailored digital marketing solutions that accelerate business success with treandy world.
+            Zmedia is to deliver tailored digital marketing solutions that accelerate business success with trendy world.
             </p>
             <br/>
             <p className="text-logo">
@@ -145,7 +145,7 @@ const Footer = () => {
                 <a href="https://www.facebook.com/profile.php?id=61564593424240">
                   <FaFacebook className="text-3xl" />
                 </a>
-                <a href="#">
+                <a href="http://Wa.me/+94768623225">
                   <FaWhatsapp className="text-3xl" />
                 </a>
                 <a href="#">
