@@ -76,7 +76,7 @@ const Footer = () => {
             </p>
             <br/>
             <p className="text-logo">
-            All Right Reserved by  KingHoldings Capital (PVT) Ltd.<br/> @ 2024-2025
+            All Right Reserved by  King Holdings Capital (PVT) Ltd.<br/> @ 2025
           
             </p>
             

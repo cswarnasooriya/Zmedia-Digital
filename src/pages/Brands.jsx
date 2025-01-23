@@ -29,7 +29,7 @@ const ProductsData = [
     img: Img3,
     title: "Brand Story",
     description:
-      ": Craft a compelling narrative about your brand’s origin, mission, and journey to build emotional connections with your audience.",
+      "Craft a compelling narrative about your brand’s origin, mission, and journey to build emotional connections with your audience.",
   },
   {
     id: 4,

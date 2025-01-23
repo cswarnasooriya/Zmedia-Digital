@@ -1,7 +1,7 @@
 import React from "react";
 import Img1 from  "../../src/assets/hero/Service_8.png";
-import Img2 from  "../../src/assets/hero/Service_8.png";
-import Img3 from  "../../src/assets/hero/Service_8.png";
+import Img2 from  "../../src/assets/hero/f1.png";
+import Img3 from  "../../src/assets/hero/f2.png";
 
 
 
@@ -9,21 +9,21 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Email, SMS, & CRM ",
+    title: "Email ",
     description:
       "Develop and manage email and SMS marketing campaigns, and leverage customer relationship management (CRM) systems to nurture leads, retain customers, and drive sales.",
   },
   {
     id: 2,
     img: Img2,
-    title: "Email, SMS, & CRM ",
+    title: "SMS ",
     description:
       "Develop and manage email and SMS marketing campaigns, and leverage customer relationship management (CRM) systems to nurture leads, retain customers, and drive sales.",
   },
   {
     id: 3,
     img: Img3,
-    title: "Email, SMS, & CRM ",
+    title: "CRM ",
     description:
       "Develop and manage email and SMS marketing campaigns, and leverage customer relationship management (CRM) systems to nurture leads, retain customers, and drive sales.",
   },

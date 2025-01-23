@@ -19,17 +19,17 @@ const App = () => {
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="strategy" element={<Strategy />} />
-        <Route path="brands" element={<Brands />} />
-        <Route path="creative" element={<Creative />} />
-        <Route path="AI" element={<AI />} />
-        <Route path="content" element={<Content/>} />
-        <Route path="media" element={<Media />} />
-        <Route path="seo" element={<SEO />} />
-        <Route path="email" element={<Email />} />
-        <Route path="web" element={<Web />} />
-        <Route path="paid" element={<Paid />} />
+        <Route index element={<Home />} />
+        <Route path="/strategy" element={<Strategy />} />
+        <Route path="/brands" element={<Brands />} />
+        <Route path="/creative" element={<Creative />} />
+        <Route path="/AI" element={<AI />} />
+        <Route path="/content" element={<Content/>} />
+        <Route path="/media" element={<Media />} />
+        <Route path="/seo" element={<SEO />} />
+        <Route path="/email" element={<Email />} />
+        <Route path="/web" element={<Web />} />
+        <Route path="/paid" element={<Paid />} />
         
         
       </Routes>

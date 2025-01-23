@@ -11,7 +11,7 @@ const ProductsData = [
     img: Img1,
     title: "Video",
     description:
-      ": Create informative, entertaining, and promotional video content to engage viewers and enhance brand visibility.",
+      "Create informative, entertaining, and promotional video content to engage viewers and enhance brand visibility.",
   },
   {
     id: 2,
