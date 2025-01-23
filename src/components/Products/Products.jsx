@@ -10,13 +10,14 @@ import Img8 from "../../assets/women/Service_8.png";
 import Img9 from "../../assets/women/ServiceN_23.png";
 import Img10 from "../../assets/women/Service_2.png";
 import { FaStar } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
     title: "Digital Strategy",
-    link: "strategy",
+    link: "/strategy",
     rating: 5.0,
     color: "95%",
     aosDelay: "0",
@@ -25,7 +26,7 @@ const ProductsData = [
     id: 2,
     img: Img2,
     title: "Brands Automation",
-    link: "brands",
+    link: "/brands",
     rating: 4.5,
     color: "88%",
     aosDelay: "200",
@@ -34,7 +35,7 @@ const ProductsData = [
     id: 3,
     img: Img3,
     title: "Creative Solutions",
-    link: "creative",
+    link: "/creative",
     rating: 4.7,
     color: "95%",
     aosDelay: "400",
@@ -43,7 +44,7 @@ const ProductsData = [
     id: 4,
     img: Img4,
     title: "AI Technologies",
-    link: "ai",
+    link: "/ai",
     rating: 4.4,
     color: "95%",
     aosDelay: "600",
@@ -52,7 +53,7 @@ const ProductsData = [
     id: 5,
     img: Img5,
     title: "Content Designs",
-    link: "content",
+    link: "/content",
     rating: 4.5,
     color: "90%",
     aosDelay: "800",
@@ -61,7 +62,7 @@ const ProductsData = [
     id: 6,
     img: Img6,
     title: "Media Consultency",
-    link: "media",
+    link: "/media",
     rating: 5.0,
     color: "97%",
     aosDelay: "0",
@@ -79,7 +80,7 @@ const ProductsData = [
     id: 8,
     img: Img8,
     title: "Email and CRM",
-    link: "email",
+    link: "/email",
     rating: 4.9,
     color: "97%",
     aosDelay: "0",
@@ -88,7 +89,7 @@ const ProductsData = [
     id: 9,
     img: Img9,
     title: "Web Development",
-    link: "web",
+    link: "/web",
     rating: 5.0,
     color: "95%",
     aosDelay: "0",
@@ -97,7 +98,7 @@ const ProductsData = [
     id: 10,
     img: Img10,
     title: "Paid Marketing",
-    link: "paid",
+    link: "/paid",
     rating: 4.8,
     color: "88%",
     aosDelay: "0",
@@ -132,13 +133,14 @@ const Products = () => {
                 key={data.id}
                 className="space-y-4"
               >
-                <a href={data.link}>
-                  <img
+                <Link to={data.link}>
+                    <img
                     src={data.img}
                     alt=""
                     className="h-[320px] w-[300px] lg:h-[270px] lg:w-[200px] object-cover rounded-2xl border-b-4 border-r-2 hover:scale-[1.05] cursor-pointer"
                   />
-                </a>
+                </Link>
+                  
                 <div>
                   <h3 className="font-semibold text-[18px]">{data.title}</h3>
                   <p className="text-sm text-gray-500">{data.color}</p>

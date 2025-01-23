@@ -38,7 +38,7 @@ const Home = () => {
 
     <Navbar handleOrderPopup={handleOrderPopup} />
     <Hero handleOrderPopup={handleOrderPopup} />
-    <Products />
+    <Products  />
     <TopProducts handleOrderPopup={handleOrderPopup} />
     <Banner />
     <Subscribe id="#contact" />
